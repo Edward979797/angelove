@@ -1,0 +1,63 @@
+.front-page {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.front--header {
+    align-items: center;
+    color:rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Cormorant Garamond';
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 6em;
+    padding-right: 2em;
+    padding-bottom: 30px;
+}
+
+li {
+    color: rgb(78, 69, 18);
+    font-size: 2.2rem;
+    list-style: none;
+    margin-right: 2em;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+}
+
+.front--logo img {
+    height: 66px;
+}
+
+.front--logo {
+    align-items: center;
+    display: flex;
+}
+
+.front--logo h1 {
+    font-size: 55px;
+}
+
+.front--body {
+    align-items: center;
+    display: flex;
+    height: 820px;
+    justify-content: center;
+}
+
+.front--button {
+    background-color: rgb(255, 166, 0);
+    border-radius: 20px;
+    border: 4px solid rgb(255, 183, 0);
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    height: 100px;
+    padding: 20px;
+    width: 400px;
+}

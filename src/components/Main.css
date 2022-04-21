@@ -1,0 +1,126 @@
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    z-index: 1;
+    width: 100%;
+}
+
+.header--logo img {
+    height: 66px;
+}
+
+.header--logo {
+    align-items: center;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.header--logo h1 {
+    color: pink;
+    font-size: 65px;
+}
+
+.header--menu {
+    background-color: pink;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    border-right: 1px solid whitesmoke;
+    font-size: 32px;
+    height: 100%;
+    list-style: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    width: 20%;
+}
+
+li:hover {
+    background-color: rgb(240, 215, 152);
+    color: whitesmoke;
+}
+
+.body {
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    width: 100%;
+}
+
+.content {
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 80%;
+}
+
+.product-display {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
+    width: 100%;
+}
+
+.product {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    width: 25%;
+}
+
+.product img {
+    height: 300px;
+    outline: 5px solid pink;
+}
+
+.product h3 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+.product p {
+    font-size: 25px;
+    margin: 0;
+}
+
+.product img:hover {
+    outline-color: gold;
+}

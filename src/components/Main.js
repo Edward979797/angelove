@@ -1,7 +1,9 @@
 import React from 'react';
 import './Main.css';
+import Gifts from './Gifts';
+import IndividualProduct from './IndividualProduct';
 
-export default function Header() {
+export default function Main() {
     return (
         <div className="main">
             <div className="header">
@@ -22,53 +24,7 @@ export default function Header() {
             </div>
             <div className="body" style={{ backgroundImage: `url(${require("../images/regal.png")}) `}}>
                 <div className="content">
-                    <div className="product-display">
-                        <div className="product">
-                            <img src={require('../images/product.jpeg')} />
-                            <h3>Bottle (large)</h3>
-                            <p>Starting from CA$2.50</p>
-                        </div>
-                        <div className="product">
-                            <img src={require('../images/product.jpeg')} />
-                            <h3>Bottle (large)</h3>
-                            <p>Starting from CA$2.50</p>
-                        </div>
-                        <div className="product">
-                            <img src={require('../images/product.jpeg')} />
-                            <h3>Bottle (large)</h3>
-                            <p>Starting from CA$2.50</p>
-                        </div>
-                        <div className="product">
-                            <img src={require('../images/product.jpeg')} />
-                            <h3>Bottle (large)</h3>
-                            <p>Starting from CA$2.50</p>
-                        </div>
-                        <div className="product">
-                            <img src={require('../images/product.jpeg')} />
-                            <h3>Bottle (large)</h3>
-                            <p>Starting from CA$2.50</p>
-                        </div>
-                        <div className="product">
-                            <img src={require('../images/product.jpeg')} />
-                            <h3>Bottle (large)</h3>
-                            <p>Starting from CA$2.50</p>
-                        </div>
-                        <div className="product">
-                            <img src={require('../images/product.jpeg')} />
-                            <h3>Bottle (large)</h3>
-                            <p>Starting from CA$2.50</p>
-                        </div>
-                        <div className="product">
-                            <img src={require('../images/product.jpeg')} />
-                            <h3>Bottle (large)</h3>
-                            <p>Starting from CA$2.50</p>
-                        </div>
-                        <div className="product">
-                            <img src={require('../images/product.jpeg')} />
-                            <h3>Bottle (large)</h3>
-                            <p>Starting from CA$2.50</p>
-                        </div>
-                    </div>
+                    <IndividualProduct />
                 </div>
             </div>
         </div>

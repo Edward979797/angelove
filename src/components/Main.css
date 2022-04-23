@@ -82,45 +82,7 @@ li:hover {
     justify-content: center;
     min-height: 500px;
     padding: 20px;
-    padding-top: 40px;
     padding-bottom: 40px;
+    padding-top: 0px;
     width: 80%;
-}
-
-.product-display {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    height: fit-content;
-    justify-content: center;
-    width: 100%;
-}
-
-.product {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 40px;
-    width: 25%;
-}
-
-.product img {
-    height: 300px;
-    outline: 5px solid pink;
-}
-
-.product h3 {
-    font-size: 32px;
-    margin-bottom: 5px;
-    margin-top: 40px;
-}
-
-.product p {
-    font-size: 25px;
-    margin: 0;
-}
-
-.product img:hover {
-    outline-color: gold;
 }

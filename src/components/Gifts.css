@@ -40,7 +40,19 @@
 }
 
 h2 {
-    color: rgb(230, 136, 151);
+    color: rgb(41, 39, 40);
     font-size: 86px;
-    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: rgb(252, 161, 176);
+}
+
+.category-description {
+    color: rgb(143, 131, 131);
+    font-size: 30px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    margin-left: 10%;
 }

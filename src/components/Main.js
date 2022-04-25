@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Main.css';
 import Gifts from './Gifts';
-import IndividualProduct from './IndividualProduct';
 
 export default function Main() {
+    const [ page, setPage ] = useState('gifts');
+
+    function showPage() {
+        switch(page) {
+            case 'gifts':
+                return <Gifts />
+        }
+    }
+
     return (
         <div className="main">
             <div className="header">
@@ -24,8 +32,11 @@ export default function Main() {
             </div>
             <div className="body" style={{ backgroundImage: `url(${require("../images/regal.png")}) `}}>
                 <div className="content">
-                    <IndividualProduct />
+                    {showPage()}
                 </div>
+            </div>
+            <div className="footer">
+                {`Angelove © ${new Date().getFullYear()}`}
             </div>
         </div>
     );

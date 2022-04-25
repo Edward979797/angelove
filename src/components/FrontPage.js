@@ -15,7 +15,7 @@ export default function FrontPage() {
                 </div>
                 <p>Birthdays, baby showers, and more&nbsp;&nbsp;|&nbsp;&nbsp;Shipping to anywhere in North America</p>
                 <div className="front--link">
-                    <button>
+                    <button onClick={() => window.location.href='/main'}>
                         Browse our selection
                     </button>
                 </div>

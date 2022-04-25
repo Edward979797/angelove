@@ -12,6 +12,16 @@ export default function Main() {
         }
     }
 
+    function showComingSoon() {
+        const testimonials = document.querySelector('#testimonials');
+
+        testimonials.textContent = 'Coming Soon!';
+
+        setTimeout(() => {
+            testimonials.textContent = 'Testimonials';
+        }, 2000);
+    }
+
     return (
         <div className="main">
             <div className="header">
@@ -22,11 +32,13 @@ export default function Main() {
                 </div>
                 <div className="header--menu">
                     <ul>
-                        <li>Gifts</li>
                         <li>About Us</li>
-                        <li>Contact</li>
                         <li>FAQ</li>
-                        <li>Testimonials</li>
+                        <li>Gifts</li>
+                        <li>Contact</li>
+                        <li id="testimonials" onMouseOver={showComingSoon}>
+                            Testimonials
+                        </li>
                     </ul>
                 </div>
             </div>

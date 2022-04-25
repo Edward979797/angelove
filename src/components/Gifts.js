@@ -44,8 +44,8 @@ export default function Gifts() {
             </div>
             <h2>Decor</h2>
             <p className="category-description">
-                Take your event's aesthetic to the next level with our dazzling array of decorative products. You
-                can even get a little creative with it and add an optional gold-dipped feather or two.
+                Take your event's aesthetic to the next level with our dazzling array of decorative products. Add
+                a gold-dipped feather for extra style points.
                 
             </p>
             <div className="product-display">

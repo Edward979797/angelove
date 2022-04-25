@@ -10,7 +10,7 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    height: 200px;
+    min-height: 200px;
     z-index: 1;
     width: 100%;
 }
@@ -96,4 +96,37 @@ li:hover {
     padding: 50px;
     text-align: center;
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header--logo h1 {
+    color: pink;
+    font-size: 50px;
+    }
+
+    .header--logo img {
+        height: 50px;
+    }
+
+    ul {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    li {
+        border-bottom: 1px solid whitesmoke;
+        border-right: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .body {
+        padding: 20px;
+    }
+    
+    .footer {
+        font-size: 30px;
+    }
 }

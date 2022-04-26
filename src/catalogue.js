@@ -2,7 +2,7 @@ export default [
     {
         name: 'Sugar Candy',
         min_price: '$2.50',
-        image: '',
+        image: 'candy.jpeg',
         sizes: [
             {
                 name: 'Vial',
@@ -17,7 +17,7 @@ export default [
     {
         name: 'Sprinkles',
         min_price: '$2.00',
-        image: '',
+        image: 'sprinkles.jpeg',
         sizes: [
             {
                 name: 'Vial',
@@ -32,7 +32,7 @@ export default [
     {
         name: 'Colored Sugar',
         min_price: '$2.00',
-        image: '',
+        image: 'sugar.jpeg',
         sizes: [
             {
                 name: 'Vial',
@@ -47,7 +47,7 @@ export default [
     {
         name: 'Rosewater Face Toner',
         min_price: '$3.50',
-        image: '',
+        image: 'toner.jpeg',
         sizes: [
             {
                 name: 'Flask',
@@ -67,7 +67,7 @@ export default [
     {
         name: 'Honey',
         min_price: '$2.50',
-        image: '',
+        image: 'product.jpeg',
         sizes: [
             {
                 name: 'Vial',
@@ -82,7 +82,7 @@ export default [
     {
         name: 'Lavender Bath Salts',
         min_price: '$3.50',
-        image: '',
+        image: 'lavender.jpeg',
         sizes: [
             {
                 name: 'Flask',
@@ -102,7 +102,7 @@ export default [
     {
         name: 'Rose Bath Salts',
         min_price: '$3.50',
-        image: '',
+        image: 'rose.jpeg',
         sizes: [
             {
                 name: 'Flask',
@@ -122,7 +122,7 @@ export default [
     {
         name: 'Paper Roses',
         min_price: '$2.00',
-        image: '',
+        image: 'misc.jpeg',
         sizes: [
             {
                 name: 'Vial',
@@ -137,7 +137,7 @@ export default [
     {
         name: 'Pendants',
         min_price: '$3.50',
-        image: '',
+        image: 'misc.jpeg',
         sizes: [
             {
                 name: 'Flask',

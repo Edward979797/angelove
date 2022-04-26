@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Gifts.css";
-import catalogue from '../Catalogue';
+import catalogue from '../catalogue';
 
 export default function Gifts() {
     const beautyProducts = catalogue.filter(c => c.type === 'Beauty');
@@ -14,7 +14,7 @@ export default function Gifts() {
             return product.sizes.map(size => {
                 return (
                     <div className="product" key={`${product.name}${size.name}`}>
-                        <img src={require('../images/product.jpeg')} />
+                        <img src={require(`../images/${product.image}`)} />
                         <h3 className="product-name">{`${product.name}`}<br/>{`(${size.name})`}</h3>
                         <p>{`Starting from CA${size.price}`}</p>
                     </div>

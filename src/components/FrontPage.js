@@ -20,33 +20,6 @@ export default function FrontPage() {
                     </button>
                 </div>
             </div>
-            <div className="pink-feather">
-                 <div className="feather-wrapper">
-                    <div className="feather-down">
-                        <div className="feather-side">
-                            <img src={require('../images/pink-feather.png')} alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="gold-feather">
-                 <div className="feather-wrapper">
-                    <div className="feather-down">
-                        <div className="feather-side">
-                            <img src={require('../images/gold-feather.png')} alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="grey-feather">
-                 <div className="feather-wrapper">
-                    <div className="feather-down">
-                        <div className="feather-side">
-                            <img src={require('../images/grey-feather.png')} alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>  
     );
 }

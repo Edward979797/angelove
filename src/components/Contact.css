@@ -1,0 +1,37 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact--header {
+    color: rgb(41, 39, 40);
+    font-size: 86px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: rgb(252, 161, 176);
+}
+
+.contact--text {
+    color: rgb(143, 131, 131);
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 100px;
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact--header {
+        font-size: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .contact--text {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        width: 82%;
+    }
+}

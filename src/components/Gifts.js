@@ -28,7 +28,7 @@ export default function Gifts() {
         <div className="gifts">
             <h2>Beauty</h2>
             <p className="category-description">
-                Our beauty line features a selection of aromatic bath salts and luxuriant
+                Our beauty line features a selection of aromatic bath salts and luxurious
                 skincare products. There's no better gift than nourishment for the body and mind.
             </p>
             <div className="product-display">

@@ -1,0 +1,36 @@
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about--header {
+    color: rgb(41, 39, 40);
+    font-size: 86px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: rgb(252, 161, 176);
+}
+
+.about--text {
+    color: rgb(143, 131, 131);
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .about--header {
+        font-size: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .about--text {
+        font-size: 22px;
+        text-align: center;
+        width: 82%;
+    }
+}

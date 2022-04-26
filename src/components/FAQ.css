@@ -1,0 +1,40 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq--header {
+    color: rgb(41, 39, 40);
+    font-size: 86px;
+    margin-bottom: 60px;
+    margin-left: 10%;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: rgb(252, 161, 176);
+}
+
+.faq--text {
+    color: rgb(143, 131, 131);
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-left: 10%;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .faq--header {
+        font-size: 50px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .faq--text {
+        font-size: 22px;
+        text-align: center;
+        width: 82%;
+    }
+}

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './Main.css';
 import Gifts from './Gifts';
+import About from './About';
+import FAQ from './FAQ';
+import Contact from './Contact';
 
 export default function Main() {
     const [ page, setPage ] = useState('gifts');
@@ -9,6 +12,12 @@ export default function Main() {
         switch(page) {
             case 'gifts':
                 return <Gifts />
+            case 'about':
+                return <About />
+            case 'faq':
+                return <FAQ />
+            case 'contact':
+                return <Contact />
         }
     }
 
@@ -32,10 +41,10 @@ export default function Main() {
                 </div>
                 <div className="header--menu">
                     <ul>
-                        <li>About Us</li>
-                        <li>FAQ</li>
-                        <li>Gifts</li>
-                        <li>Contact</li>
+                        <li onClick={() => setPage('about')}>About Us</li>
+                        <li onClick={() => setPage('faq')}>FAQ</li>
+                        <li onClick={() => setPage('gifts')}>Gifts</li>
+                        <li onClick={() => setPage('contact')}>Contact</li>
                         <li id="testimonials" onMouseOver={showComingSoon}>
                             Testimonials
                         </li>

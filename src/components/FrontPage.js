@@ -1,5 +1,6 @@
 import React from 'react';
 import './FrontPage.css';
+import { Link } from 'react-router-dom';
 
 export default function FrontPage() {
     return (
@@ -15,9 +16,11 @@ export default function FrontPage() {
                 </div>
                 <p>Birthdays, baby showers, and more&nbsp;&nbsp;|&nbsp;&nbsp;Shipping to anywhere in North America</p>
                 <div className="front--link">
-                    <button onClick={() => window.location.href='/main'}>
-                        Browse our selection
-                    </button>
+                    <Link to="/main">
+                        <button>
+                            Browse our selection
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>  

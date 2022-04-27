@@ -5,7 +5,7 @@
 
 .about--header {
     color: rgb(41, 39, 40);
-    font-size: 86px;
+    font-size: 4em;
     margin-bottom: 30px;
     margin-left: 10%;
     text-align: left;
@@ -15,7 +15,7 @@
 
 .about--text {
     color: rgb(143, 131, 131);
-    font-size: 30px;
+    font-size: 1.5em;
     letter-spacing: 2px;
     line-height: 50px;
     margin-left: 10%;

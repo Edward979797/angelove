@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/angelove/static/css/main.7e537664.css",
+    "main.css": "/angelove/static/css/main.ba605a11.css",
     "main.js": "/angelove/static/js/main.b11b92a8.js",
     "static/media/product.jpeg": "/angelove/static/media/product.f2b019afd22da21c831a.jpeg",
     "static/media/sugar.jpeg": "/angelove/static/media/sugar.0fe078c04df1e907273a.jpeg",
@@ -12,11 +12,11 @@
     "static/media/candy.jpeg": "/angelove/static/media/candy.d080fcbfc6826adaf445.jpeg",
     "static/media/watercolor.png": "/angelove/static/media/watercolor.f544d66bb560361e8456.png",
     "index.html": "/angelove/index.html",
-    "main.7e537664.css.map": "/angelove/static/css/main.7e537664.css.map",
+    "main.ba605a11.css.map": "/angelove/static/css/main.ba605a11.css.map",
     "main.b11b92a8.js.map": "/angelove/static/js/main.b11b92a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e537664.css",
+    "static/css/main.ba605a11.css",
     "static/js/main.b11b92a8.js"
   ]
 }
